@@ -1,0 +1,754 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.body{
+   background-color: white;
+   width: 100vw;
+}
+.pic1{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./Images/pictures/8thS.jpeg.jpg);
+    background-size: cover;
+    margin-top: 30px;
+}
+
+.body1{
+    display: flex;
+}
+.navbar{
+    background-color: whitesmoke;
+    width: 100vw;
+    height: 80px;
+    display: fleX;
+}
+.logo{
+    height: 50px;
+    width: 150px;
+  margin-left: 80px;
+  margin-top: 20px;
+  display: flex;
+}
+.subB1{
+    text-align: center;
+    color:rgb(86, 74, 74);
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-content: center;
+    margin-right: 50px ;
+    margin-left: 80px;
+    text-decoration: none;
+    position: relative;
+}
+.subB1::after{
+    content: '';
+    height: 3px;
+    background: grey;
+    position: absolute;
+    left: 0;
+    bottom: 25px;
+    transition: 0.5;
+}
+.subB1:hover::after{
+    width: 100%;
+}
+.subB1:hover{
+    color:rgb(86, 74, 74);
+}
+.body2{
+    margin-top: 05%;
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+}
+.head1{
+    
+    background-color:white ;
+    color:rgb(86, 74, 74);
+    font-size: 70px;
+    font-family: "Fira Sans", sans-serif;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+.pic4{
+    height: 400px;
+    width: 500px;
+    margin-top:40px ;
+    margin-right: 70px;
+}
+.subB2{
+    display: flex;
+    flex-direction: column;
+}
+.para1{
+    font-size: 18px;
+    font-family: "Fira Sans", sans-serif;
+    color:rgb(86, 74, 74);
+    margin-left: 200px;
+    margin-top: 8px;
+}
+.btn{
+    border-radius: 27px;
+    height: 50px;
+    width: 100px;
+    margin-left: 400px;
+    margin-top:30px ;
+    font-size: 20px;
+    color: grey;
+    border: 3px solid rgb(86, 74, 74); 
+    position: relative;
+    overflow: hidden;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    align-content: center;
+    
+}
+spans{
+    width: 0;
+    height: 100%;
+    border-radius: 27px;
+    background:rgb(86, 74, 74);
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: -1;
+    transition: 1s ease-out;
+}
+.btn:hover spans{
+    width: 100%;
+}
+.body3{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+}
+.pic5{
+    background-image: url(./Images/pictures/swing.jpeg.jpg);
+    height: 350px;
+    width: 480px;
+    background-size: cover;
+    margin-top: 30px;
+transition: all 0.3s;
+}
+.pic5:hover{
+    transform: skew(5deg);
+}
+.pic6{
+background-image: url(./Images/pictures/lamp.html.jpg);
+height: 350px;
+width: 480px;
+background-size: cover;
+margin-top: 30px;
+transition: all 0.3s;
+}
+.pic6:hover{
+    transform:skew(5deg) ;
+}
+.pic7{
+background-image:url(./Images/pictures/chair.jpeg.jpg);
+height: 350px;
+width: 480px;
+background-size: cover;
+margin-top: 30px;
+transition: all 0.3s;
+}
+.pic7:hover{
+    transform:skew(5deg) ;
+}
+.body4{
+    display: flex;
+    height: 450px;
+    margin-top: 20px;
+    flex-direction: column;
+}
+.q1{
+    color: #000;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top:50px;
+    margin-left: 70px;
+    font-family:"Fira Sans", sans-serif ;
+}
+.a1{
+    font-size:18px;
+    font-family:"Fira Sans", sans-serif ;
+    margin-left: 70px;
+    margin-top:15px;
+    
+}
+.q2{
+    color: #000;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top:50px;
+    margin-left: 70px;
+    font-family:"Fira Sans", sans-serif ;
+}
+.a2{
+    font-size:18px;
+    font-family:"Fira Sans", sans-serif ;
+    margin-left: 70px;
+    margin-top:15px;
+}
+.q3{
+    color: #000;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top:50px;
+    margin-left: 70px;
+    font-family:"Fira Sans", sans-serif ;
+}
+.a3{
+    font-size:18px;
+    font-family:"Fira Sans", sans-serif ;
+    margin-left: 70px;
+    margin-top:15px;
+}
+.head2{
+    font-size: 50px;
+    color: rgb(56, 52, 52);
+    padding-top: 80px;
+    padding-left: 50px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: light;
+background-color: whitesmoke;
+}
+.body5{
+    height: 600px;
+    width: 100vw;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+}
+.bodyS5{
+    height: 100px;
+    width: 100vw;
+}
+
+.box1{
+    background-color: rgb(209, 210, 145);
+    height: 420px;
+    width: 250px;
+    margin-top: 40px;
+    margin-right: 0px;
+    color: rgb(56, 52, 52);
+    padding: 40px;
+    font-size: 40px;
+    margin-left: 100px;
+}
+.boxP1{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.box2{
+    background-color: rgb(209, 210, 145);
+    height: 420px;
+    width: 250px;
+    margin-top: 40px;
+    margin-left:100px;
+    color: rgb(56, 52, 52);
+    padding: 40px;
+    font-size: 40px;
+
+}
+.boxP2{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.Sbox1, .Sbox2{
+margin-top: 35px;
+font-size: 20px;
+}
+.charges1,.charges2{
+    font-size: 40px;
+}
+.btn2{
+    background-color: rgb(86, 74, 74);
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    margin-top: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: none;
+}
+.pic8{
+    margin-left: 200px;
+    height: 500px;
+    width: 580px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.para2{
+    margin-top: 70px;
+    color: rgb(56, 52, 52);
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+.body6{
+    background-color: rgb(231, 225, 218);
+    height: 300px;
+    width: 100vw;
+    margin-top: 50px;
+    margin-bottom: 0px;
+ 
+}
+.para3{
+    display: flex;
+    color: rgb(56, 52, 52);
+    justify-content: center;
+    font-size: 60px;
+    padding-top:80px ;
+}
+.bodyS6{
+    display: flex;
+    justify-content: center;
+}
+.btn3,.btn4,.btn5,.btn6{
+    color: gray;
+border: 2px solid rgb(86, 74, 74);
+    padding:10px ;
+    font-size: 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+    position: relative;
+    overflow: hidden;
+}
+.btn3:hover,.btn4:hover,.btn5:hover,.btn6:hover{
+    background-color:rgb(86, 74, 74) ;
+}
+.body7{
+    background-color: rgb(231, 225, 218);
+    height: 600px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+.head3{
+   font-size: 70px;
+   color: rgb(56, 52, 52); 
+   padding-left: 30px;
+    padding-top: 150px;
+}
+.box3{
+    background-color:white ;
+    border-radius: 10px;
+    height: 480px;
+    width: 380px;
+    margin-top: 50px;
+    
+}
+.box4{
+    background-color:white ;
+    border-radius: 10px;
+    height: 480px;
+    width: 380px;
+    margin-right: 70px;
+    margin-top: 50px;
+}
+.head4{
+    font-size: 30px;
+    padding-left:40px;
+    padding-top:60px;
+    color: rgb(56, 52, 52);
+}
+.head5{
+    font-size: 30px;
+    padding-top:60px;
+    padding-left: 40px;
+    color: rgb(56, 52, 52)
+}
+.para4, .para5{
+    font-size: 20px;
+    color: rgb(56, 52, 52);
+    padding-top: 20px;
+    padding-left:40px ;
+    padding-right: 15px;
+}
+
+
+ .body8{
+    height: 550px;
+    width: 100vw;
+    background-color: rgb(231, 225, 218);
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+ }
+.location{
+height: 400px;
+width: 300px;
+display: flex;
+flex-direction: column;
+font-size: 35px;
+color:rgb(49, 49, 73);
+padding-top:100px ;
+}
+.ourbrands{
+    height: 400px;
+    width: 300px;
+    display: flex;
+flex-direction: column;
+font-size: 35px;
+color:rgb(49, 49, 73);
+padding-top:100px ;
+}
+
+.followus{
+    height: 450px;
+    width: 300px;
+    display: flex;
+flex-direction: column;
+font-size: 35px;
+color:rgb(49, 49, 73);
+padding-top:100px ;
+}
+.company{
+    height: 400px;
+    width: 300px;
+    display: flex;
+flex-direction: column;
+font-size: 35px;
+color:rgb(49, 49, 73);
+padding-top:100px ;
+}
+.contact{
+    margin-top: 10px;
+}
+.details{
+    cursor: pointer;
+    color: rgb(56, 52, 52);
+    font-size: 20px;
+    margin-top: 20px;
+    padding-left: 10px ;
+    padding-right: 0px;
+}
+.mail{
+    cursor: pointer;
+    color: rgb(56, 52, 52);
+    font-size: 20px;
+    margin-top: 5px;
+    padding-left: 10px ;
+    padding-right: 0px;
+    text-decoration: none;
+}
+
+
+
+/* SHOP SECTION */
+.pic9{
+    height: 700px;
+    width: 100vw;
+    background-image: url(./Images/pictures/zunshop.jpeg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+}
+.head6{
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+    font-size: 90px;
+    color: #fff;
+    text-align: center;
+}
+.para6{
+    font-size: 30px;
+    color: #fff;
+}
+.body11{
+    height: 680px;
+    width: 100vw;
+    background-color: rgb(86, 125, 183);
+    display: flex;
+    justify-content: space-evenly;
+}
+.pic10, .pic11, .pic12, .pic13{
+    height: 480px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.parapic{
+    color: #fff;
+  gap: 20px;
+  font-size: 20px;
+}
+.body12{
+    background-color: whitesmoke;
+    height: 600px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+.pic14{
+    width:50vw ;
+    height: 600px;
+}
+.bodyS12{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(201, 218, 221);
+width: 720px;
+height: 600px;
+}
+.head7{
+   margin-left: 120px;
+    color: rgb(56, 52, 52);
+    font-size: 50px;
+    margin-top:150px ;
+    
+}
+.para7{
+    margin-left: 120px;
+    margin-top: 30px;
+color: rgb(97, 94, 94);
+font-size: 18px;
+}
+.head8{
+    color: rgb(97, 94, 94);
+    font-size: 20px;
+    margin-left: 120px;
+}
+.para8{
+    margin-left: 120px;
+    margin-top: 20px;
+color: rgb(97, 94, 94);
+font-size: 18px;
+}
+.body13{
+    display: flex;
+    justify-content:space-between ;
+    height: 700px;
+    width: 100vw;
+}
+.head9{
+    font-size: 60px;
+    color: rgb(56, 52, 52);
+    margin-left: 70px;
+    margin-top:300px ;
+}
+.para9{
+    font-size: 20px;
+    color: rgb(97, 94, 94);
+    margin-left: 70px;
+    margin-top: 40px;
+}
+
+.bodyS13{
+    display: flex;
+    flex-direction: column;
+    height: 600PX;
+    width: 50VW;
+}
+.bodySS13{
+    display: flex;
+    flex-direction: raw;
+    height: 600PX;
+    width: 50vw;
+}
+.pic15{
+width: 450px;
+height: 600px;
+margin-top: 100px;
+margin-left: 50px;
+}
+.pic16{
+    width: 200px;
+    height: 280px;
+    margin-top: 415px;
+    }
+/* INTERIOR WORK */
+        
+   .pic17{
+background-image: url(./Images/pictures/haven8.jpep.avif);
+height: 650px;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+   } 
+   .head10{
+    
+    font-size: 90px;
+    color: #fff;
+    text-align: center;
+}
+.para10{
+    font-size: 30px;
+    color: #fff;
+    margin-top: 0px;
+}
+.body14{
+    height: 550px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+.pic18{
+    height: 400px;
+    width: 400px;
+    margin-top: 75px;
+    margin-left: 150px;
+    background-image: url(./Images/pictures/haven9.jpeg);
+    background-size: cover;
+    transition: 2s ease-out;
+}
+.pic18:hover{
+    transform: scale(0.5);
+}
+.bodyS14{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+.head11{
+    color:rgb(86, 74, 74);
+    font-size: 18px;
+    margin-top: 230PX;
+   
+}
+.para11{
+    color:rgb(86, 74, 74);
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+
+
+.body15{
+    height: 550px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+.pic19{
+    height: 400px;
+    width: 400px;
+    margin-top: 75px;
+    margin-right: 150px;
+    background-image: url(./Images/pictures/haven10.jpeg);
+    background-size: cover;
+    transition: 2s ease-out;
+}
+.pic19:hover{
+    transform: scale(0.5);
+}
+.bodyS15{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+.head12{
+    color:rgb(86, 74, 74);
+    font-size: 18px;
+    margin-top: 230PX;
+    margin-left: 150px;
+   
+}
+.para12{
+    color:rgb(86, 74, 74);
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left:150px ;
+}
+
+.body16{
+    height: 550px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+.pic20{
+    height: 400px;
+    width: 400px;
+    margin-top: 75px;
+    margin-left: 150px;
+    background-image: url(./Images/pictures/haven11.jpeg);
+    background-size: cover;
+    transition: 2s ease-out;
+}
+.pic20:hover{
+    transform: scale(0.5);
+}
+.bodyS16{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+.head13{
+    color:rgb(86, 74, 74);
+    font-size: 18px;
+    margin-top: 230PX;
+}
+.para13{
+    color:rgb(86, 74, 74);
+    margin-top: 20px;
+    font-size: 30px;
+}
+.body17{
+    background-color: rgb(229, 92, 79);
+    height: 800px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+.bodyS17{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 800px;
+}
+.pic21{
+background-image: url(./Images/pictures/haven12.jpeg);
+background-size: cover;
+    height: 800px;
+    width:50vw ;
+}
+.para14{
+    font-size: 60px;
+    color: white;
+    margin-top: 320px;
+    display: flex;
+    margin-left: 85px;
+}
+.btn7{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 60px;
+width: 170px;
+font-size: 17px;
+border-radius: 35px;
+margin-left:80px ;
+margin-top: 30px;
+font-weight: bolder;
+border: none;
+color: gray
+}
+.btn7:hover{
+    background-color:rgb(86, 74, 74) ;
+}
+.body18{
+    height: 550px;
+    width: 100vw;
+    background-color: rgb(231, 225, 218);
+    display: flex;
+    justify-content: space-around;
+ }
